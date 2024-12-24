@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/costom.css" />
+  </head>
+  <body>
+   
+    <div class="container-fluid overflowHidden p-0">
+       <!-- navbar menu -->
+      <nav class="navbar navbar-expand-lg " id="changeBg">
+        <div class="container-fluid">
+          <img
+            src="../img/cloud2.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block rounded-3 align-text-top"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-bolder active"
+                  aria-current="page"
+                  href="#"
+                  >iCloud</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Продукты</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Решения
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Enterprise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Тарифы</a>
+              </li>
+            </ul>
+            
+            
+            <form class="d-flex" >
+              <!-- Button trigger modal -->
+           
+                <button type="button" class="btn btn-success mx-lg-4 my-2 my-lg-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Зарегистрироваться
+                </button>
+              
+
+             <!-- Modal -->
+             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Зарегистрироваться или войти</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                    
+                    <form class="needs-validation" id="needs-validation" novalidate>
+                      <div class="row">
+                        <div class="col-11 m-3 position-relative">
+                          <label for="validationTooltip01" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="validationTooltip01" placeholder="Введите имя:" required>
+                          <div class="valid-tooltip">Looks good!</div>
+                          <div class="invalid-tooltip">Пожалуйста, введите имя.</div>
+                        </div>
+                        <div class="col-11 m-3">
+                          <label for="validationTooltip02" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="validationTooltip02" placeholder="Введите фамилию:" required>
+                          <div class="valid-tooltip">Looks good!</div>
+                          <div class="invalid-tooltip">Пожалуйста, введите фамилию.</div>
+                        </div>
+                        <div class="col-11 m-3">
+                          <label for="validationCustomUsername" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <input type="email" class="form-control" id="validationCustomUsername" placeholder="Введите почту:" required>
+                            <span class="input-group-text">@</span>
+                            <div class="invalid-feedback">Введите корректный email.</div>
+                          </div>
+                        </div>
+                        <div class="col-11 m-3">
+                          <label for="validationCustom01" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="validationCustom01" placeholder="Введите пароль:" required>
+                          <div class="valid-feedback">Looks good!</div>
+                          <div class="invalid-feedback">Пожалуйста, введите пароль.</div>
+                        </div>
+                        <a href="/cloud.html">
+                          <div class="col-10 mx-5 mb-5 mt-3 d-grid">
+                            <button class="btn btn-success" type="button"> Отправить</button>
+                          </div>
+                        </a>
+                      </div>
+                    </form>
+                    
+
+                   </div>
+                   
+                 </div>
+               </div>
+             </div>
+             
+
+                 
+
+            </form>
+            <form class="d-flex" >
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#staticBackdropTwo">
+                Войти
+              </button>
+
+             <!-- Modal -->
+             <div class="modal fade" id="staticBackdropTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabelTwo" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="staticBackdropLabelTwo">
+                      Зарегистрироваться или войти
+                     </h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modalTwo" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                    
+                    <form class="needs-validation" id="needs-validationtwo" novalidate>
+                      <div class="row">
+                       
+                        <div class="col-11 m-3">
+                          <label for="validationCustomUsername" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <input type="email" class="form-control" id="validationCustomUsernametwo" placeholder="Введите почту:" required>
+                            <span class="input-group-text">@</span>
+                            <div class="invalid-feedback">Введите корректный email.</div>
+                          </div>
+                        </div>
+                        <div class="col-11 m-3">
+                          <label for="validationCustom01" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="validationCustom02" placeholder="Введите пароль:" required>
+                          <div class="valid-feedback">Looks good!</div>
+                          <div class="invalid-feedback">Пожалуйста, введите пароль.</div>
+                        </div>
+                        <a href="/cloud.html">
+                          <div class="col-10 mx-5 mb-5 mt-3 d-grid">
+                            <button class="btn btn-success" type="button"> Отправить</button>
+                          </div>
+                        </a>
+                      </div>
+                    </form>
+                    
+
+                   </div>
+                   
+                 </div>
+               </div>
+             </div>
+             
+
+                 
+
+            </form>
+            
+            
+          </div>
+        </div>
+      </nav>
+      <!-- navbar menu -->
+
+      <!-- main -->
+
+      <div
+        class="container-costom d-flex align-items-center main-nav costom-bg"
+      >
+        <div class="row vh-50  text-center">
+          <div class="col-12">
+            <p class="display-4  fw-bold">Начните работать эффективнее</p>
+          </div>
+          <div class="col-12  mb-3">
+            <p class="h5 text-secondary">
+              Dropbox предоставляет инструменты, которые повысят вашу
+              продуктивность, <br />
+              обеспечат безопасность файлов и облегчат совместную работу.
+            </p>
+          </div>
+          <div class="col-12 ">
+            <div class="row d-flex  justify-content-center">
+              <div class="col-md-3 ">
+                <button class="btn btn-success py-3">
+                  Зарегистрироваться бесплатно
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </button>
+                <p class="fw-light">Кредитная карта не требуется.</p>
+              </div>
+              <div class="col-md-3 ">
+                <button class="btn btn-dark">
+                  Выбрать тарифный план
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="row text-start">
+                <div class="col-3 ">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn costom-change-font-color" id="changeColorBtn"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Измените меню 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                      <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                      <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+                    </svg>
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                      <div class="modal-content costomGradientCostom ">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">
+                            Измените цвета 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                              <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                              <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+                            </svg>
+                          </h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class=" col-11 my-lg-2 text-start  mt-3">
+
+                            <button type="button" class="btn btn-primary">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn costombgForNavbar">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket text-white" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn btn-warning">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn btn-info">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+                            <button type="button" class="btn btn-light border-black">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                              </svg>
+                            </button>
+            
+                          </div>
+                   
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+                
+
+              
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- maintwo -->
+
+      <div class="container-fluid costom-bg border-top p-0">
+        <div class="row ">
+
+          <div class="col-6 col-lg-2 order-1 order-lg-1  d-flex p-0">
+            <img src="./img/cloud7.gif" class="img-fluid"  alt="" />
+          </div>
+          <div class=" col-12 col-lg-8 order-3 order-lg-2  p-0">
+            <img src="./img/cloud5.webp" class="img-fluid" alt="" />
+          </div>
+          <div class="col-6 col-lg-2 order-2 order-lg-3  d-flex p-0">
+            <img src="./img/cloud6.gif" class="img-fluid mx-auto" alt="" />
+          </div>
+
+        </div>
+      </div>
+
+      <!-- text С помощью Dropbox можно  -->
+      <div class="container-fluid costom-bg border-top vh-130 p-0">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="row d-flex justify-content-center">
+          <div class="col-8 text- text-start display-6 fw-bold">
+            С помощью Dropbox можно <br />
+            <p class="text-warning d-inline-block">
+              <span
+                class="simple-text text-warning"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                data-bs-title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto temporibus maiores corporis. Porro eveniet vitae aliquid amet incidunt quaerat fugiat."
+              >
+                редактировать и подписывать
+              </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-pencil-square"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"
+                />
+              </svg>
+            </p>
+            документы, <br />
+            <p class="text-success d-inline-block">
+              сообща работать
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-check2-square"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"
+                />
+                <path
+                  d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"
+                />
+              </svg>
+            </p>
+            над проектами, <br />
+            <p class="text-danger d-inline-block">
+              выполнять поиск
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                />
+              </svg>
+            </p>
+            во всех ваших <br />
+            приложениях — и все это там же, где вы <br />
+            <p class="text-danger-emphasis d-inline-block">
+              надежно храните
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-brightness-high-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                />
+              </svg>
+            </p>
+            весь контент. Да, все <br />
+            очень просто :
+          </div>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+      </div>
+      <!-- text С помощью Dropbox можно -->
+
+      <!-- the key of any device -->
+      <div
+        class="container-fluid h-auto my-5 bg-white d-flex align-items-center"
+      >
+        <div class="row text-center">
+          <div class="col-12">
+            <button class="rounded-pill btn btn-costom py-0 fs-small">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-people-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+                />
+              </svg>
+              Совместная работа над контентом
+            </button>
+          </div>
+          <div class="col-12 h4 fw-bold mt-3">
+            Работайте с кем угодно, откуда угодно и с любого устройства
+          </div>
+          <div class="col-12 text-secondary small fw-light mb-5 mt-2">
+            Dropbox обеспечивает удобные настройки доступа, умное хранение
+            файлов и бесперебойную <br />
+            совместную работу даже с теми, у кого нет аккаунта. Все, что нужно
+            для эффективной командной <br />
+            работы!
+          </div>
+          <div class="col-12">
+            <button
+              class="btn my-3 my-md-0 btn-outline-dark mx-3 rounded-4 py-2 border-2"
+              type="button"
+            >
+              Начать прямо сейчас — бесплатно
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-light mx-3" type="button">
+              Подробнее
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- the key of any device -->
+
+      <!-- img -->
+      <div
+        class="container-fluid h-auto my-5 bg-white d-flex align-items-center"
+      >
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-4 p-0 text-end  col-lg-6">
+            <video
+              src="./img/cloud8.mp4 "
+              autoplay
+              muted
+              loop
+              class="img-fluid rounded-5"
+            ></video>
+          </div>
+          <div class="col-3 p-0">
+            <img
+              src="./img/cloud9.webp"
+              class="img-fluid rounded-end-circle"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- img -->
+
+      <!-- the key of any device -->
+      <div
+        class="container-fluid my-5  bg-white d-flex align-items-center"
+      >
+        <div class="row text-center">
+          <div class="col-12">
+            <button class="rounded-pill btn btn-costomtwo py-1 fs-small">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-clipboard-data-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"
+                />
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5zM10 8a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm4-3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1"
+                />
+              </svg>
+              Аналитика документов
+            </button>
+          </div>
+          <div class="col-12 h4 fw-bold mt-3">
+            Работайте с кем угодно, откуда угодно и с любого устройства
+          </div>
+          <div class="col-12 text-secondary small fw-light mb-5 mt-2">
+            Dropbox обеспечивает удобные настройки доступа, умное хранение
+            файлов и бесперебойную <br />
+            совместную работу даже с теми, у кого нет аккаунта. Все, что нужно
+            для эффективной командной <br />
+            работы!
+          </div>
+          <div class="col-12">
+            <button
+              class="btn btn-outline-dark mx-3 my-3 my-md-0  rounded-4 py-2 border-2"
+              type="button"
+            >
+              Начать прямо сейчас — бесплатно
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-light mx-3" type="button">
+              Подробнее
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- the key of any device -->
+
+      <!-- img video  -->
+      <div class="container-fluid  my-5 bg-white h-auto">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 p-0 d-flex align-items-center">
+            <video
+              src="./img/cloud11.webm "
+              autoplay
+              muted
+              loop
+              class="img-fluid costom-img rounded-4"
+            ></video>
+          </div>
+          <div class="col-5 p-0">
+            <img src="./img/cloud10.webp" class="img-fluid rounded-5" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- img video  -->
+
+      <!-- the key of any device -->
+      <div
+        class="container-fluid  bg-white my-5  d-flex align-items-center"
+      >
+        <div class="row text-center">
+          <div class="col-12">
+            <button class="rounded-pill btn btn-costomthree py-1 fs-small">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="currentColor"
+                class="bi bi-pc-display"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"
+                />
+              </svg>
+              Ускоренные отзывы
+            </button>
+          </div>
+          <div class="col-12 h4 fw-bold mt-3">
+            Работайте с кем угодно, откуда угодно и с любого устройства
+          </div>
+          <div class="col-12 text-secondary small fw-light mb-5 mt-2">
+            Dropbox обеспечивает удобные настройки доступа, умное хранение
+            файлов и бесперебойную <br />
+            совместную работу даже с теми, у кого нет аккаунта. Все, что нужно
+            для эффективной командной <br />
+            работы!
+          </div>
+          <div class="col-12">
+            <button
+              class="btn btn-outline-dark mx-3 my-3 my-md-0 rounded-4 py-2 border-2"
+              type="button"
+            >
+              Начать прямо сейчас — бесплатно
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-light mx-3" type="button">
+              Подробнее
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- the key of any device -->
+
+      <!-- img video  -->
+      <div class="container-fluid h-auto my-5 bg-white ">
+        <div class="row d-flex justify-content-center">
+          <div class="col-5 p-0 d-flex align-items-center">
+            <video
+              src="./img/cloud12.webm "
+              autoplay
+              muted
+              loop
+              class="img-fluid costom-img rounded-4"
+            ></video>
+          </div>
+          <div class="col-4 p-0">
+            <img src="./img/cloud13.webp" class="img-fluid rounded-5" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- img video  -->
+
+      <!-- cost  -->
+      <div class="container-fluid rounded-5 h-auto bg-costomForCost ">
+        <div class="row text-center">
+        <div class="col-12 h1 my-5">Купить тарифы</div>
+          <div class="col-12">
+            <div class="row d-flex justify-content-center">
+              <div class="col-4">
+                <ul
+                  class="nav nav-pills mb-3 p-2 d-flex justify-content-evenly align-items-center"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link py-2 rounded-4 fs-small fw-bolder active"
+                      id="pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-person-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                        />
+                      </svg>
+                      Личные
+                      <span class="badge rounded-pill text-bg-warning"
+                        >Акция</span
+                      >
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link py-2 rounded-4 fs-small fw-bolder"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+                        />
+                      </svg>
+                      Для семьи
+                    </button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link py-2 rounded-4 fs-small fw-bolder"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-camera-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"
+                        />
+                        <path
+                          d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"
+                        />
+                      </svg>
+                      Профи
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="tab-content" id="pills-tabContent">
+                <!-- first -->
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="row text-start d-flex justify-content-center">
+                    <div
+                      class=" col-10 col-md-6 col-lg-3  my-3 my-xl-0    costom-border mx-2 bg-white rounded-5 p-3"
+                    >
+                      <div class="row">
+                        <div class="col-12 fs-small text-secondary">
+                          Премиум
+                        </div>
+                        <div class="col-12 h1 fw-bold">200 ГБ</div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-cloud"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Загрузка файла до 50 ГБ
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-infinity"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Безлимитное место для фото и видео с телефона
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-at"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Подтверждение новых рассылок
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-stars"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            И другие преимущества
+                          </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                          <button class="btn btn-costomTariffs" type="button">
+                            Подключить за 595т/мес
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-10 col-md-6 col-lg-3 mx-2  my-3 my-xl-0 costom-border bg-white rounded-5 p-3"
+                    >
+                      <div class="row">
+                        <div class="col-12 fs-small text-secondary">
+                          Премиум
+                          <span class="badge rounded-pill text-bg-warning"
+                            >Выгодно</span
+                          >
+                        </div>
+                        <div class="col-12 h1 fw-bold">1 ТБ</div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-cloud"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Загрузка файла до 50 ГБ
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-infinity"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Безлимитное место для фото и видео с телефона
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-at"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Подтверждение новых рассылок
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-stars"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            И другие преимущества
+                          </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                          <button
+                            class="btn py-0 btn-costomTariffs"
+                            type="button"
+                          >
+                            Подключить за <del>2595т</del>/ 1595т/мес
+                          </button>
+                          <div class="col-12">
+                            <span
+                              class="badge fs-small fw-light text-bg-warning"
+                              >Акция действует до 2 декабря</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-10 col-md-6 col-lg-3  mx-2 my-3 my-xl-0 costom-border mx-3 bg-white rounded-5 p-3"
+                    >
+                      <div class="row">
+                        <div class="col-12 fs-small text-secondary">
+                          Премиум
+                        </div>
+                        <div class="col-12 h1 fw-bold">3 ТБ</div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-cloud"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Загрузка файла до 50 ГБ
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-infinity"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Безлимитное место для фото и видео с телефона
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-at"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            Подтверждение новых рассылок
+                          </div>
+                        </div>
+
+                        <div class="row my-3">
+                          <div class="col-1 fw-medium">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              fill="currentColor"
+                              class="bi bi-stars"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="col-11 fw-medium">
+                            И другие преимущества
+                          </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                          <button class="btn btn-costomTariffs" type="button">
+                            Подключить за 5495т/мес
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- first -->
+
+
+                <!-- Second -->
+                <div
+                  class="tab-pane fade d-flex justify-content-center"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                  <div class="col-9 mx-3  costom-border bg-white rounded-5 p-3">
+                    <div class="row d-flex  justify-content-center">
+                      <div class="col-md-6 col-lg-4   text-start">
+                        <div class="row">
+                          <div class="col-12 fs-small text-secondary">
+                            Премиум
+                            <span class="badge rounded-pill text-bg-warning"
+                              >Выгодно</span
+                            >
+                          </div>
+                          <div class="col-12 h1 fw-bold">1 ТБ</div>
+
+                          <div class="row my-3">
+                            <div class="col-1 fw-medium">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="currentColor"
+                                class="bi bi-cloud"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                                />
+                              </svg>
+                            </div>
+                            <div class="col-11 fw-medium">
+                              Загрузка файла до 50 ГБ
+                            </div>
+                          </div>
+
+                          <div class="row my-3">
+                            <div class="col-1 fw-medium">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="currentColor"
+                                class="bi bi-infinity"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                                />
+                              </svg>
+                            </div>
+                            <div class="col-11 fw-medium">
+                              До 8 человек на одном тарифе
+                            </div>
+                          </div>
+
+                          <div class="row my-3">
+                            <div class="col-1 fw-medium">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="currentColor"
+                                class="bi bi-at"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                                />
+                              </svg>
+                            </div>
+                            <div class="col-11 fw-medium">
+                              Подтверждение новых рассылок
+                            </div>
+                          </div>
+
+                          <div class="row my-3">
+                            <div class="col-1 fw-medium">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                fill="currentColor"
+                                class="bi bi-stars"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                                />
+                              </svg>
+                            </div>
+                            <div class="col-11 fw-medium">
+                              И другие преимущества
+                            </div>
+                          </div>
+
+                          <div class="col-12 text-center">
+                            <button class="btn btn-costomTariffs" type="button">
+                              Подключить за 1695т/мес
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="d-none  d-md-inline-block col-md-6 col-lg-8   costom-bgFromFamily  rounded-5 "
+                      >
+                        <div class="row d-flex align-items-center h-100  ">
+                          <div class="col-md-4 ">
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                              src="./img/cloud14.webp"
+                              class="img-fluid"
+                              style="width: 15vw"
+                              alt=""
+                            />
+                              </div>
+                              <div class="col-12">
+                                <p class="fw-bold d-none d-md-block fs-small">
+                                  Удобно подключать родных и управлять подпиской
+                                </p>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                              src="./img/cloud15.webp"
+                              class="img-fluid"
+                              style="width: 15vw"
+                              alt=""
+                            />
+                              </div>
+                              <div class="col-12">
+                                <p class="fw-bold d-none d-md-block fs-small">
+                                  Легко редактировать документы вместе
+                                </p>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-12">
+                                <img
+                              src="./img/cloud16.webp"
+                              class="img-fluid"
+                              style="width: 15vw"
+                              alt=""
+                            />
+                              </div>
+                              <div class="col-12">
+                                <p class="fw-bold d-none d-md-block fs-small">
+                                  Просто делиться фото и видео 
+                                </p>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Second -->
+
+
+                <!-- thirth -->
+                <div
+                  class="tab-pane text-start fade position-relative-coctom "
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                  tabindex="0"
+                >
+                  <div class="row d-flex justify-content-center">
+                    <div
+                    class="col-12 col-sm-10 my-3  col-md-6 col-lg-4  mx-3 border border-success shadow-lg bg-white rounded-5 p-3"
+                  >
+                    <div class="row">
+                      <div class="col-6 fs-small text-secondary">Премиум</div>
+                      <div class="col-6 text-end">
+                        <img
+                          src="./img/cloud17.png"
+                          class="img-fluid"
+                          style="height: 5vh"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="col-12 h1 fw-bold">1 ТБ</div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-cloud"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Загрузка файла до 50 ГБ
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-infinity"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Безлимитное место для фото и видео с телефона
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-at"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Подтверждение новых рассылок
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-stars"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          И другие преимущества
+                        </div>
+                      </div>
+
+                      <div class="col-12 text-center">
+                        <button class="btn btn-costomTariffs" type="button">
+                          Подключить за 595т/мес
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-12 my-3 col-sm-10  col-md-6 col-lg-4 mx-3 border border-success shadow-lg bg-white rounded-5 p-3"
+                  >
+                    <div class="row">
+                      <div class="col-6 fs-small text-secondary">
+                        Премиум
+                        <span class="badge rounded-pill text-bg-warning"
+                          >Выгодно</span
+                        >
+                      </div>
+                      <div class="col-6 text-end">
+                        <img
+                          src="./img/cloud17.png"
+                          class="img-fluid"
+                          style="height: 5vh"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="col-12 h1 fw-bold">3 ТБ</div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-cloud"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Загрузка файла до 50 ГБ
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-infinity"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Безлимитное место для фото и видео с телефона
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-at"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          Подтверждение новых рассылок
+                        </div>
+                      </div>
+
+                      <div class="row my-3">
+                        <div class="col-1 fw-medium">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-stars"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                            />
+                          </svg>
+                        </div>
+                        <div class="col-11 fw-medium">
+                          И другие преимущества
+                        </div>
+                      </div>
+
+                      <div class="col-12 text-center">
+                        <button class="btn btn-costomTariffs" type="button">
+                          Подключить за 2595т/мес
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+
+                </div>
+                <!-- thirth -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cost  -->
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+      <div
+        class="container-fluid p-0  costom-container rounded-5 my-5 bg-costom-black"
+      >
+        <div class="row text-center">
+          <div class="col-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              fill="currentColor"
+              class="bi text-white bi-key-fill mt-5"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2M2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+              />
+            </svg>
+          </div>
+          <div class="col-12">
+            <p class="h3 fw text-white">
+              Безопасность всегда должна быть на первом месте
+            </p>
+          </div>
+          <div class="col-12 text-center text-white-50 fw-medium">
+            Dropbox обеспечивает сохранность вашей интеллектуальной
+            собственности: в вашем распоряжении <br />
+            разные функции безопасности, начиная с лучших в отрасли возможностей
+            шифрования и защиты <br />
+            документов от несанкционированного доступа и заканчивая журналом
+            версий и восстановлением <br />
+            файлов. Мы никогда не продаем и не передаем никому ваши данные.
+          </div>
+          <div class="col-12 my-5">
+            <button class="btn mx-4 pe-4 btn-outline-light">
+              Начать прямо сейчас — бесплатно
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+            <button class="btn mx-4 pe-4 btn-light">
+              Подробнее
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-4 d-flex align-items-center justify-content-end">
+                <img
+                  src="./img/could19.webp"
+                  class="img-fluid rounded-circle"
+                  style="height: 40vh"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-4 text-end pe-0">
+                <img
+                  src="./img/cloud17.webp"
+                  class="img-fluid rounded-pill"
+                  style="height: 60vh"
+                  alt=""
+                />
+              </div>
+              <div class="col-4 text-start ps-0">
+                <img
+                  src="./img/cloud18.webp"
+                  class="img-fluid"
+                  style="height: 60vh"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-5 text-center">
+            <span class="badge badge-costom rounded-pill fw-medium p-3"
+              >Нам доверяют самые крупные компании по всему миру</span
+            >
+          </div>
+        </div>
+
+        <!-- animation -->
+
+        <!-- maintwo -->
+
+        <!-- main -->
+      </div>
+
+
+      <div class="container-fluid   p-0">
+        <div class="row ">
+          <div class="col-12  h1 text-center">
+            Как <code>хранилище</code> упрощает работу в разных индустриях
+          </div>
+          <div class="col-sm-12   my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex  justify-content-center   justify-content-lg-end  me-lg-1">
+              <div class="col-5 p-0">
+                <img src="./img/cloud20.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h5">Строительство</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex justify-content-center   justify-content-lg-start ms-lg-1 ">
+              <div class="col-5 p-0">
+                <img src="./img/cloud21.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h5">Медиа</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12  my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex  justify-content-center  justify-content-lg-end  me-lg-1">
+              <div class="col-5 p-0">
+                <img src="./img/cloud22.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h5">Технологии</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее 
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex justify-content-center   justify-content-lg-start ms-lg-1 ">
+              <div class="col-5 p-0">
+                <img src="./img/cloud23.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h5">Профессиональные услуги</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12  my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex  justify-content-center  justify-content-lg-end  me-lg-1">
+              <div class="col-5 p-0">
+                <img src="./img/cloud24.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h5">Производство</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 my-3 my-lg-3 col-lg-6">
+            <div class="row d-flex  justify-content-center  justify-content-lg-start ms-lg-1 ">
+              <div class="col-5 p-0">
+                <img src="./img/cloud25.webp" class="img-fluid rounded-start-5 " style="height: 100%;" alt="" />
+              </div>
+              <div class="col-5 py-3 rounded-end-5 bg-card-costom ">
+                <p class="h4">Dropbox Education</p>
+                <p class="fs-small text-secondary">
+                  С помощью Dropbox для рабочих групп можно хранить,
+                  просматривать, редактировать и пересылать файлы CAD, BIM, PDF
+                  и визуальное содержимое откуда угодно. Подробнее
+                </p>
+                <button class="btn btn-secondary p-2  ">Подробнее 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+
+
+        </div>
+      </div>
+
+      <div class="container-fluid text-white bg-costom-black ">
+        <div class="row d-lg-none ">
+          <div class="col-12 mt-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item ">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button costom-bgFromFamily"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    <p class="h5 fw-bolder">Features</p>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse  collapse show"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled fw-light">
+                      <li class="ul-list">Curved text generator</li>
+                      <li class="ul-list">Photo effects</li>
+                      <li class="ul-list">Image enhancer</li>
+                      <li class="ul-list">Add frames to photos</li>
+                      <li class="ul-list">Add text to photos</li>
+                      <li class="ul-list">Online video recorder</li>
+                      <li class="ul-list">Video trimmer</li>
+                      <li class="ul-list">Convert videos to MP4</li>
+                      <li class="ul-list">See more features</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button costom-bgFromFamily collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    <p class="h5 fw-bolder">Explore</p>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled fw-light">
+                      <li class="ul-list">Design ideas</li>
+                      <li class="ul-list">Photo effects</li>
+                      <li class="ul-list">Image enhancer</li>
+                      <li class="ul-list">Add frames to photos</li>
+                      <li class="ul-list">Add text to photos</li>
+                      <li class="ul-list">Online video recorder</li>
+                      <li class="ul-list">Video trimmer</li>
+                      <li class="ul-list">Convert videos to MP4</li>
+                      <li class="ul-list">See more</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button costom-bgFromFamily collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    <p class="h5 fw-bolder">Community</p>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled fw-light">
+                      <li class="ul-list">Design ideas</li>
+                      <li class="ul-list">Photo effects</li>
+                      <li class="ul-list">Image enhancer</li>
+                      <li class="ul-list">Add frames to photos</li>
+                      <li class="ul-list">Add text to photos</li>
+                      <li class="ul-list">Online video recorder</li>
+                      <li class="ul-list">Video trimmer</li>
+                      <li class="ul-list">Convert videos to MP4</li>
+                      <li class="ul-list">See more</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button costom-bgFromFamily collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour"
+                  >
+                    <p class="h5 fw-bolder">Community</p>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFour"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled fw-light">
+                      <li class="ul-list">Design ideas</li>
+                      <li class="ul-list">Photo effects</li>
+                      <li class="ul-list">Image enhancer</li>
+                      <li class="ul-list">Add frames to photos</li>
+                      <li class="ul-list">Add text to photos</li>
+                      <li class="ul-list">Online video recorder</li>
+                      <li class="ul-list">Video trimmer</li>
+                      <li class="ul-list">Convert videos to MP4</li>
+                      <li class="ul-list">See more</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button costom-bgFromFamily collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive"
+                  >
+                    <p class="h5 fw-bolder">Download</p>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFive"
+                  class="accordion-collapse collapse"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled fw-light">
+                      <li class="ul-list">Design ideas</li>
+                      <li class="ul-list">Photo effects</li>
+                      <li class="ul-list">Image enhancer</li>
+                      <li class="ul-list">Add frames to photos</li>
+                      <li class="ul-list">Add text to photos</li>
+                      <li class="ul-list">Online video recorder</li>
+                      <li class="ul-list">Video trimmer</li>
+                      <li class="ul-list">Convert videos to MP4</li>
+                      <li class="ul-list">See more</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row ps-5 pt-5 d-none d-lg-flex">
+          <div class="col">
+            <p class="h5 fw-bolder">Features</p>
+            <ul class="list-unstyled fw-light">
+              <li class="ul-list">Curved text generator</li>
+              <li class="ul-list">Photo effects</li>
+              <li class="ul-list">Image enhancer</li>
+              <li class="ul-list">Add frames to photos</li>
+              <li class="ul-list">Add text to photos</li>
+              <li class="ul-list">Online video recorder</li>
+              <li class="ul-list">Video trimmer</li>
+              <li class="ul-list">Convert videos to MP4</li>
+              <li class="ul-list">See more features</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="h5 fw-bolder">Explore</p>
+            <ul class="list-unstyled fw-light">
+              <li class="ul-list">Design ideas</li>
+              <li class="ul-list">Photo effects</li>
+              <li class="ul-list">Image enhancer</li>
+              <li class="ul-list">Add frames to photos</li>
+              <li class="ul-list">Add text to photos</li>
+              <li class="ul-list">Online video recorder</li>
+              <li class="ul-list">Video trimmer</li>
+              <li class="ul-list">Convert videos to MP4</li>
+              <li class="ul-list">See more</li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <div class="col">
+              <p class="h5 fw-bolder">Community</p>
+              <ul class="list-unstyled fw-light">
+                <li class="ul-list">Design ideas</li>
+                <li class="ul-list">Photo effects</li>
+                <li class="ul-list">Image enhancer</li>
+                <li class="ul-list">Add frames to photos</li>
+                <li class="ul-list">Add text to photos</li>
+                <li class="ul-list">Online video recorder</li>
+                <li class="ul-list">Video trimmer</li>
+                <li class="ul-list">Convert videos to MP4</li>
+                <li class="ul-list">See more</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <p class="h5 fw-bolder">Download</p>
+              <ul class="list-unstyled fw-light">
+                <li class="ul-list">Design ideas</li>
+                <li class="ul-list">Photo effects</li>
+                <li class="ul-list">Image enhancer</li>
+                <li class="ul-list">Add frames to photos</li>
+                <li class="ul-list">Add text to photos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <p class="h5 fw-bolder">Company</p>
+              <ul class="list-unstyled fw-light">
+                <li class="ul-list">Design ideas</li>
+                <li class="ul-list">Photo effects</li>
+                <li class="ul-list">Image enhancer</li>
+                <li class="ul-list">Add frames to photos</li>
+                <li class="ul-list">Add text to photos</li>
+                <li class="ul-list">Online video recorder</li>
+                <li class="ul-list">Video trimmer</li>
+                <li class="ul-list">Convert videos to MP4</li>
+                <li class="ul-list">See more</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+        <!-- footer - website -->
+        <div class="footer my-5 mb-5">
+          <div
+            class="row d-flex text-sm-center justify-content-lg-between align-content-lg-center"
+          >
+            <div
+              class="col-lg-4 d-flex my-3 my-lg-0 justify-content-lg-start justify-content-center order-1"
+            >
+              <div class="dropup-center dropup mb-5">
+                <button
+                  class="btn btn-light dropdown-me dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="m-1"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-globe-americas"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
+                      />
+                    </svg>
+                  </span>
+                  Select language
+                </button>
+
+                <ul
+                  class="dropdown-menu"
+                  style="height: 20vw; width: 20vw; overflow-y: auto"
+                >
+                  <li>
+                    <div class="input-group mb-3">
+                      <span
+                        class="input-group-text bg-light border border-end-0"
+                        style="border: 1px solid #8b3dff"
+                        id="basic-addon1"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-search"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                          />
+                        </svg>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        style="border: 1px solid #8b3dff"
+                        placeholder=""
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                      />
+                    </div>
+                  </li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  <li><a class="dropdown-item" href="#">German</a></li>
+                  <li><a class="dropdown-item" href="#">Russian </a></li>
+                  <li><a class="dropdown-item" href="#">Spanish</a></li>
+                  <li><a class="dropdown-item" href="#">Chinese</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  <li><a class="dropdown-item" href="#">German</a></li>
+                  <li><a class="dropdown-item" href="#">Russian </a></li>
+                  <li><a class="dropdown-item" href="#">Spanish</a></li>
+                  <li><a class="dropdown-item" href="#">Chinese</a></li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 order-3 order-lg-2 my-3 my-lg-0 blockquote-footer d-flex justify-content-center"
+            >
+              © 2024 All Rights Reserved, Canva®
+            </div>
+            <div
+              class="col-lg-4 order-2 order-lg-2 my-3 my-lg-0 d-inline-flex justify-content-center justify-content-lg-end"
+            >
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-facebook text-primary mx-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+              </div>
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-twitter text-primary mx-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                  />
+                </svg>
+              </div>
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-instagram text-danger mx-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </div>
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-youtube text-danger mx-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer - website -->
+      </div>
+    </div>
+
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/jsForIcloud.js"></script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+.container-costom {
+  height: 73vh;
+  width: 100vw;
+  left: 10vw;
+  right: 10vw;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+.vh-70 {
+  height: 70vh;
+}
+.vh-80 {
+  height: 80vh;
+}
+.vh-90 {
+  height: 90vh;
+}
+.vh-100 {
+  height: 100vh;
+}
+.vh-130 {
+  height: 130vh;
+}
+
+.bb {
+  border: 2px solid red;
+}
+
+video {
+  max-width: 100%; /* Убедиться, что видео не превышает ширину родительского блока */
+  height: 30vh; /* Сохранять пропорции */
+}
+
+.btn-costom {
+  background-color: #be4b0a;
+  color: white;
+}
+.btn-costomtwo {
+  background-color: #78286e;
+  color: white;
+}
+
+.btn-costomthree {
+  background-color: #007891;
+  color: white;
+}
+
+.btn-costomTariffs {
+    background-color: #FF6427;
+    color: white;
+}
+.btn-costomTariffs:hover {
+    background-color: #b24a21;
+    color: white;
+}
+
+.fs-small {
+  font-size: 12px;
+}
+
+.costom-bgFromFamily {
+  background-image: linear-gradient(180deg, #FEE2DD, #f0e6e5);
+}
+
+.costom-change-font-color {
+  background-image: linear-gradient(180deg, rgb(100, 143, 252), rgb(98, 116, 218));
+  color: white;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.costomGradientCostom {
+  width: 30vw;
+    height: 300px;
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(211, 206, 206, 0.4),  /* Прозрачный красный */
+            rgba(215, 218, 215, 0.4)   /* Прозрачный зелёный */
+        ),
+        url('./img/cloud32.avif') no-repeat center/cover;
+    border: 1px solid black;
+}
+
+.costom-border {
+    border: 0px solid;
+}
+
+.costombgForNavbar {
+  background-color: rgb(41, 151, 41);
+}
+.costombgForNavbar:hover {
+  background-color: rgb(41, 151, 41);
+}
+.costombgForNavbar:focus {
+  background-color: rgb(41, 151, 41);
+}
+
+
+
+.costom-border:hover {
+    border: 3px solid #FF6427;
+    box-shadow:  1px 1px 10px 1px #FF6427;
+    
+    /* transform: scale(1.2, 1);
+    transform: translate(-10px, -20px); */
+    transition: all 0.5s;
+}
+
+
+
+.costom-img {
+  box-shadow: 1px 1px 80px 2px rgb(180, 173, 173);
+  position: relative;
+  left: 5vw;
+}
+.bg-costomForCost {
+    background-image: linear-gradient(75deg, #FAD9C2, #fbfaf9);
+
+}
+
+.costom-bg {
+  background-color: #f7f5f2;
+}
+
+
+.bg-costom-black {
+  background-color: #131417;
+}
+
+.bg-card-costom {
+  background-color: #F7F5F2;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: rgba(223, 19, 22, 0.8); /* Темный фон */
+  --bs-tooltip-color: #fff; /* Белый текст тултипа */
+  --bs-tooltip-arrow-color: rgba(0, 0, 0, 0.8); /* Цвет стрелки */
+}
+.simple-text {
+  color: #000; /* Черный цвет текста */
+  cursor: default; /* Обычный курсор */
+}
+
+
+.nav-pills {
+    border-radius: 10px;
+    background-color: #EBECED;
+}
+
+/* Изменение цвета активной вкладки */
+.nav-pills .nav-link.active {
+  background-color: #ffffff; /* Здесь можно выбрать свой цвет */
+  color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+/* Изменение цвета неактивных вкладок */
+.nav-pills .nav-link {
+  background-color: #EBECED; /* Цвет неактивных вкладок */
+  color: #333; /* Цвет текста неактивных вкладок */
+}
+
+/* Изменение цвета при наведении */
+.nav-pills .nav-link:hover {
+  background-color: #fbfbfb; /* Цвет при наведении */
+}
+
+
+.bi-person-fill:hover, .bi-camera-fill:hover, .bi-heart-fill:hover {
+    color: #333333;
+}
+.bi-person-fill, .bi-camera-fill, .bi-heart-fill {
+
+    color: #FF6427;
+}
+
+.position-relative-coctom {
+  position: relative;
+  bottom: 50vh;
+}
+
+.costom-container {
+  width: 94vw;
+  left: 3vw;
+  right: 3vw;
+}
+.badge-costom {
+  background-color: #65B8DB;
+}
+
+.ul-list {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.ul-list:hover{
+  color: #3170ef;
+  cursor: pointer;
+}

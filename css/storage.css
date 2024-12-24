@@ -1,0 +1,93 @@
+.bb {
+    border: 1px solid #c3c3c3;
+}
+
+.jj {
+    border: 2px solid red;
+}
+
+.fs-small {
+    font-size: 12px;
+}
+
+.costom-hover-content-main {
+    background-color: white;
+}
+.costom-hover-content-main:hover {
+    background-color: rgb(237, 230, 230);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+ /* Стили для активной вкладки */
+ .nav-link.active {
+    background-color: #d7278e; /* Цвет фона активной вкладки */
+    color: white;             /* Цвет текста активной вкладки */
+    border-color: #af1b56;    /* Цвет границы активной вкладки */
+}
+
+/* Стили для неактивных вкладок */
+.nav-link {
+    background-color: #af0c70; /* Цвет фона неактивных вкладок */
+    color: #000;              /* Цвет текста неактивных вкладок */
+    border: 1px solid #ddd;   /* Граница вкладок */
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #e2e6ea; /* Цвет фона при наведении */
+    color: #0af021;           /* Цвет текста при наведении */
+}
+
+
+
+
+/* Стили для содержимого вкладок */
+.tab-pane {
+    margin: 0px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.costom-style-dowd {
+    background-color: #0D6EFD;
+    color: white;
+    
+
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.overflow {
+    overflow: auto;
+    height: 65vh; /* Установите фиксированную высоту */
+}
+
+.costom-style-dowd:active {
+    background-color: #0D6EFD;
+    color: white;
+    transform: scale(1.4, 1.5);
+    transition: all 3s;
+}
+
+.image-container {
+    width: 100%; /* Ширина контейнера */
+    height: 300px; /* Высота контейнера */
+    overflow: hidden; /* Скрываем выходящие части изображения */
+  }
+  
+  .image-container img {
+    width: 100%; /* Заполнить по ширине */
+    height: 100%; /* Заполнить по высоте */
+    object-fit: cover; /* Изображение обрезается и масштабируется, чтобы заполнить контейнер */
+    object-position: center; /* Центрируем изображение */
+  }
