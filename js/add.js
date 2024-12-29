@@ -29,16 +29,13 @@ function displayImages() {
     images.forEach((image, index) => {
         const img = document.createElement("img");
         img.src = image;
-        img.alt = `Сурат ${index + 1}`;
+        img.alt = `Img ${index + 1}`;
         img.style.maxWidth = "120px";
-        img.style.margin = "10px";
         img.classList.add("rounded-2");
         img.classList.add("image-container");
         img.classList.add("img-thumbnail");
         img.classList.add("border-primary");
         gallery.appendChild(img); // Суратни галереяга қўшиш
-       
-        
     });
     
 
@@ -48,13 +45,34 @@ function displayImages() {
         images.forEach((image, index) => {
             const img = document.createElement("img");
             img.src = image;
-            img.alt = `Сурат ${index + 1}`;
+            img.alt = `Img ${index + 1}`;
             img.style.maxWidth = "120px";
             img.style.margin = "10px";
             img.classList.add("rounded-2");
             img.classList.add("image-container");
             img.classList.add("img-thumbnail");
             img.classList.add("border-primary");
+            img.classList.add("position-relative");
+            
+            const deleteImg = document.createElement("span");
+            // galleryElement.appendChild(img.appendChild(deleteImg));
+            deleteImg.classList.add("bi");
+            deleteImg.classList.add("bi-trash");
+            deleteImg.classList.add("text-danger")
+            deleteImg.classList.add("d-inline");
+
+            // deleteImg.classList.add("position-absolute");
+            deleteImg.classList.add("top-0");
+            deleteImg.classList.add("z-3")
+            deleteImg.classList.add("start-0");
+            deleteImg.classList.add("p-2");
+            img.appendChild(deleteImg); 
+            deleteImg.addEventListener("click", () => {
+                img.remove();
+                deleteImg.remove();
+            })
+            
+            galleryElement.appendChild(img.appendChild(deleteImg));
             galleryElement.appendChild(img); // Қўшиш
         });
     });
@@ -80,3 +98,33 @@ clearButton.addEventListener("dblclick", () => {
 
 // Саҳифани янгилаганда суратларни кўрсатиш
 displayImages();
+
+
+//  Get the modal
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+// Get all images with the class 'img-thumbnail'
+var images = document.getElementsByClassName("img-thumbnail");
+
+// Loop through all images and add click event
+for (var i = 0; i < images.length; i++) {
+  images[i].onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  };
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+modal.onclick = function (event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+};
